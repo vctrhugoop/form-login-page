@@ -16,33 +16,35 @@
   </head>
   <body>
     <div class="container">
-      <header class="header-content">
-        <p class="logo">Start<span>UP</span></p>
-      </header>
       <main class="main-content">
-        <h1 class="main-heading">Welcom back</h1>
+        <p class="logo">Start<span>UP</span></p>
+        <h1 class="main-heading">Welcome back</h1>
         <p class="main-text">Welcome back please enter your details</p>
         <form class="form-content">
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="Enter Your Email" />
-          <label for="passwd">Password</label>
-          <input id="passwd" type="password" placeholder="Enter Your Email" />
+          <div class="login-wrapper">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter Your Email" />
+            <label for="passwd">Password</label>
+            <input id="passwd" type="password" placeholder="******" />
+          </div>
           <div class="checkbox-forgotpasswd">
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox">Remember me</label>
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">Remember me</label>
+            </div>
             <a href="#">Forgot password</a>
           </div>
-          <button class="btn-signin">Sign In</button>
-          <button class="btn-google">
+          <button type="submit" class="btn-signin">Sign In</button>
+          <button type="submit" class="btn-google">
             <img src="./Assets/google-icon.svg" alt="Logo Google" />
             Sign in with Google
           </button>
         </form>
-        <p class="main-text">Don.t have an account? <a href="#">Sign up</a></p>
+        <p class="footer-text">
+          Don't have an account? <a href="#">Sign up</a>
+        </p>
       </main>
-      <div class="img-bg">
-        <img src="./Assets/img-bg.png" alt="Image Background" />
-      </div>
+      <div class="img-bg"></div>
     </div>
   </body>
 </html>
