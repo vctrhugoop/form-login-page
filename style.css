@@ -23,12 +23,9 @@ button {
   font-size: 1.6rem;
   color: var(--text-color-600);
 }
-
-body {
-  min-height: 100vh;
-}
-
 .main-content {
+  width: 100vw;
+  height: 100vh;
   padding: 3.6rem 3.2rem;
 
   width: 368px;
