@@ -24,28 +24,29 @@ button {
   color: var(--text-color-600);
 }
 
-.main-content {
+.header-content {
   padding: 3.6rem 3.2rem;
-
-  width: 368px;
-  margin:auto;
-  
-  display: flex;
-  flex-direction: column;
 }
-  
 
 .logo {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-color-900);
 
-  margin-bottom: 12rem;
 }
 
 .logo span {
   color: var(--main-color);
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.main-content {
+  padding: 3.6rem 3.2rem;
+
+  width: 368px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-heading {
@@ -151,8 +152,8 @@ button {
 
 
 .img-bg {
-  height: 23rem;
-  background: url(./Assets/img-bg.png) no-repeat center 10%/cover;
+ height: 23rem;
+ background: url(./Assets/img-bg.png) no-repeat center 10%/cover;
 }
 
 
@@ -160,10 +161,24 @@ button {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    "header side"
+    "main side";
+
+    height: 100vh;
+  }
+  .header-content {
+    grid-area: header;
+  }
+  .main-content {
+    grid-area: main;
+    margin: auto;
   }
   .img-bg {
+    grid-area: side;
     width: 100%;
-    height: 100vh;
-    background: url(./Assets/img-bg.png) no-repeat center/cover;
+    height: 100%;
+    background: url(./Assets/img-bg.png) no-repeat center 100%/cover;
    }
 }
