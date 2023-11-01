@@ -23,9 +23,8 @@ button {
   font-size: 1.6rem;
   color: var(--text-color-600);
 }
+
 .main-content {
-  width: 100vw;
-  height: 100vh;
   padding: 3.6rem 3.2rem;
 
   width: 368px;
@@ -152,8 +151,8 @@ button {
 
 
 .img-bg {
- height: 23rem;
- background: url(./Assets/img-bg.png) no-repeat center 10%/cover;
+  height: 23rem;
+  background: url(./Assets/img-bg.png) no-repeat center 10%/cover;
 }
 
 
@@ -164,7 +163,7 @@ button {
   }
   .img-bg {
     width: 100%;
-    height: 100%;
-    background: url(./Assets/img-bg.png) no-repeat center 100%/cover;
+    height: 100vh;
+    background: url(./Assets/img-bg.png) no-repeat center/cover;
    }
 }
