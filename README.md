@@ -32,8 +32,8 @@ Projeto desenvolvido para estudo, onde coloquei em prática meus conhecimentos e
 
 ## 🔖 Layout
 
-Layout utlizado foi retido community do Figma.
-[LINK LAYOUT](https://www.figma.com/file/ZkMNjwd1IbQwFuRoLTGC0j/Responsive-sign-in-page-web-tablet-and-mobile-with-artificial-intelegence-AI-image-(Community)?type=design&t=f0PixFpj8UAbdqcR-6)
+Layout da aplicação foi com base de um projeto do figma community.
+[LINK LAYOUT](<https://www.figma.com/file/ZkMNjwd1IbQwFuRoLTGC0j/Responsive-sign-in-page-web-tablet-and-mobile-with-artificial-intelegence-AI-image-(Community)?type=design&t=f0PixFpj8UAbdqcR-6>)
 
 ## :memo: Licença
 
